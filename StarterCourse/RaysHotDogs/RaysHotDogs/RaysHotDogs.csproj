@@ -118,5 +118,13 @@
       <Name>RaysHotDocs.Core2</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Images\hotdog1.jpg" />
+    <BundleResource Include="Images\hotdog2.jpg" />
+    <BundleResource Include="Images\hotdog3.jpg" />
+    <BundleResource Include="Images\hotdog4.jpg" />
+    <BundleResource Include="Images\hotdog5.jpg" />
+    <BundleResource Include="Images\hotdog6.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

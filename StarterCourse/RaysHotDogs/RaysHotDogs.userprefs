@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{0354412C-3915-479E-B18D-64F220936DB2}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="RaysHotDocs.Core2/Model/HotDog.cs">
     <Files>
-      <File FileName="RaysHotDogs/HotDogDetailViewController.cs" Line="9" Column="15" />
+      <File FileName="RaysHotDogs/HotDogDetailViewController.cs" Line="9" Column="6" />
       <File FileName="RaysHotDocs.Core2/MyClass.cs" Line="1" Column="1" />
       <File FileName="RaysHotDocs.Core2/Model/HotDog.cs" Line="1" Column="1" />
     </Files>
