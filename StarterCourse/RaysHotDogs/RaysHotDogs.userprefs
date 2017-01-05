@@ -1,12 +1,14 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="RaysHotDogs.Core/Service/HotDogDataService.cs">
+﻿<Properties StartupConfiguration="{0354412C-3915-479E-B18D-64F220936DB2}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RaysHotDogs/AppDelegate.cs">
     <Files>
       <File FileName="RaysHotDogs.Core/Model/HotDog.cs" Line="80" Column="2" />
       <File FileName="RaysHotDogs.Core/Model/HotDogGroups.cs" Line="1" Column="1" />
       <File FileName="RaysHotDogs.Core/Repository/HotDogRepository.cs" Line="12" Column="3" />
       <File FileName="RaysHotDogs.Core/Service/HotDogDataService.cs" Line="1" Column="1" />
+      <File FileName="RaysHotDogs/AppDelegate.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.RaysHotDogs PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7E1017EA-9C69-41D5-97E9-F9FDF873A13D" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
