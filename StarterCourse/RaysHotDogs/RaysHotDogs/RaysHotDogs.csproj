@@ -107,10 +107,16 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="ViewController.cs" />
-    <Compile Include="ViewController.designer.cs">
-      <DependentUpon>ViewController.cs</DependentUpon>
+    <Compile Include="HotDogDetailViewController.cs" />
+    <Compile Include="HotDogDetailViewController.designer.cs">
+      <DependentUpon>HotDogDetailViewController.cs</DependentUpon>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RaysHotDocs.Core2\RaysHotDocs.Core2.csproj">
+      <Project>{00B3FE8F-87FF-42F5-A2B4-5574370C5321}</Project>
+      <Name>RaysHotDocs.Core2</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

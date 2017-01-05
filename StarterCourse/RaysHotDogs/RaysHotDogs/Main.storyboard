@@ -1,25 +1,100 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
-	<dependencies>
-		<plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204" />
-	</dependencies>
-	<scenes>
-		<!--View Controller-->
-		<scene sceneID="tne-QT-ifu">
-			<objects>
-				<viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
-					<layoutGuides>
-						<viewControllerLayoutGuide type="top" id="y3c-jy-aDJ" />
-						<viewControllerLayoutGuide type="bottom" id="wfy-db-euE" />
-					</layoutGuides>
-					<view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-						<rect key="frame" x="0.0" y="0.0" width="600" height="600" />
-						<autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" />
-						<color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite" />
-					</view>
-				</viewController>
-				<placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder" />
-			</objects>
-		</scene>
-	</scenes>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="7">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="6">
+            <objects>
+                <viewController id="7" sceneMemberID="viewController" customClass="HotDogDetailViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4"/>
+                        <viewControllerLayoutGuide type="bottom" id="5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.37647058823529411" green="0.89411764705882357" blue="0.85882352941176465" alpha="1"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="41" translatesAutoresizingMaskIntoConstraints="NO" restorationIdentifier="l">
+                                <rect key="frame" x="20" y="42" width="360" height="169"/>
+                                <constraints>
+                                    <constraint id="44" firstAttribute="width" constant="360"/>
+                                    <constraint id="45" firstAttribute="height" constant="169"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="44"/>
+                                        <exclude reference="45"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="44"/>
+                                        <include reference="45"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="46" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="20" y="245" width="277" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="49" firstAttribute="width" constant="277"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="49"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="49"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="41"/>
+                                <exclude reference="46"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="42"/>
+                                <exclude reference="43"/>
+                                <exclude reference="47"/>
+                                <exclude reference="48"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="41"/>
+                                <include reference="46"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="42"/>
+                                <include reference="43"/>
+                                <include reference="47"/>
+                                <include reference="48"/>
+                            </mask>
+                        </variation>
+                        <constraints>
+                            <constraint id="42" firstItem="8" firstAttribute="trailing" secondItem="41" secondAttribute="trailing" constant="20"/>
+                            <constraint id="43" firstItem="41" firstAttribute="top" secondItem="8" secondAttribute="top" constant="42"/>
+                            <constraint id="47" firstItem="46" firstAttribute="leading" secondItem="8" secondAttribute="leading" constant="20"/>
+                            <constraint id="48" firstItem="46" firstAttribute="top" secondItem="8" secondAttribute="top" constant="245"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="HotDogImageView" destination="41" id="name-outlet-41"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="56" y="32"/>
+        </scene>
+    </scenes>
 </document>
