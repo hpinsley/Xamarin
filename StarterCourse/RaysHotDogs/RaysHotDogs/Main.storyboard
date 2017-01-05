@@ -56,11 +56,20 @@
                                     </mask>
                                 </variation>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="53" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="125" y="440" width="116" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Add to Cart">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
                         </subviews>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="41"/>
                                 <exclude reference="46"/>
+                                <exclude reference="53"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="42"/>
@@ -73,6 +82,7 @@
                             <mask key="subviews">
                                 <include reference="41"/>
                                 <include reference="46"/>
+                                <include reference="53"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="42"/>
@@ -90,6 +100,7 @@
                     </view>
                     <connections>
                         <outlet property="HotDogImageView" destination="41" id="name-outlet-41"/>
+                        <outlet property="AddToCartButton" destination="53" id="name-outlet-53"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -97,4 +108,12 @@
             <point key="canvasLocation" x="56" y="32"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Images/hotdog1.jpg" width="300" height="200"/>
+        <image name="Images/hotdog2.jpg" width="300" height="200"/>
+        <image name="Images/hotdog3.jpg" width="300" height="200"/>
+        <image name="Images/hotdog4.jpg" width="300" height="200"/>
+        <image name="Images/hotdog5.jpg" width="300" height="200"/>
+        <image name="Images/hotdog6.jpg" width="300" height="200"/>
+    </resources>
 </document>

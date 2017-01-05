@@ -21,13 +21,13 @@ namespace RaysHotDogs
 
 			DatabindUI();
 
-			//AddToCartButton.TouchUpInside += (object sender, EventArgs e) =>
-			//{
+			AddToCartButton.TouchUpInside += (object sender, EventArgs e) =>
+			{
 
-			//	UIAlertView message = new UIAlertView("Ray's Hot Dogs", "That hot dog was added to your order", null, "OK", null);
-			//	message.Show();
+				UIAlertView message = new UIAlertView("Ray's Hot Dogs", "That hot dog was added to your order", null, "OK", null);
+				message.Show();
 
-			//};
+			};
 
 			//CancelButton.TouchUpInside += (object sender, EventArgs e) =>
 			//{

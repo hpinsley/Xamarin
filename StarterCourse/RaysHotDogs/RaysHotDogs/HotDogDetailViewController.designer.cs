@@ -16,10 +16,19 @@ namespace RaysHotDogs
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton AddToCartButton { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIImageView HotDogImageView { get; set; }
 
         void ReleaseDesignerOutlets ()
         {
+            if (AddToCartButton != null) {
+                AddToCartButton.Dispose ();
+                AddToCartButton = null;
+            }
+
             if (HotDogImageView != null) {
                 HotDogImageView.Dispose ();
                 HotDogImageView = null;
