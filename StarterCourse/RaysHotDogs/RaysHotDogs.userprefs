@@ -1,13 +1,11 @@
 ﻿<Properties StartupConfiguration="{0354412C-3915-479E-B18D-64F220936DB2}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RaysHotDogs/HotDogDetailViewController.cs">
-    <Files>
-      <File FileName="RaysHotDogs/HotDogDetailViewController.cs" Line="31" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.ItemProperties.RaysHotDogs PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E3B7B6A2-8EC7-4932-91A3-E6BE49191636" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/howard.pinsley/dev/xamarin/StarterCourse/RaysHotDogs/RaysHotDogs/HotDogDetailViewController.cs" line="27" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
