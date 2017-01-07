@@ -70,9 +70,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="UIButton57_TouchUpInside:" destination="7" id="58" eventType="touchUpInside"/>
-                                </connections>
+                                <connections/>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="59" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" text="1">
                                 <rect key="frame" x="164" y="550" width="48" height="30"/>

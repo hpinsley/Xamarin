@@ -46,10 +46,6 @@ namespace RaysHotDogs
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel ShortDescriptionLabel { get; set; }
 
-        [Action ("UIButton57_TouchUpInside:")]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        partial void UIButton57_TouchUpInside (UIKit.UIButton sender);
-
         void ReleaseDesignerOutlets ()
         {
             if (AddToCartButton != null) {

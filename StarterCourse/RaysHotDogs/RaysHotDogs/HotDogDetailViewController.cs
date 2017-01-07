@@ -29,11 +29,11 @@ namespace RaysHotDogs
 
 			};
 
-			CancelButton.TouchUpInside += (object sender, EventArgs e) =>
+			this.CancelButton.TouchUpInside += (object sender, EventArgs e) =>
 			{
-				//we'll come back this one later
+				UIAlertView message = new UIAlertView("Cancel", "Cancel clicked", null, "OK", null);
+				message.Show();
 			};
-
 		}
 
 		private void DatabindUI()
