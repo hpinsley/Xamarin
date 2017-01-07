@@ -29,10 +29,10 @@ namespace RaysHotDogs
 
 			};
 
-			//CancelButton.TouchUpInside += (object sender, EventArgs e) =>
-			//{
-			//	//we'll come back this one later
-			//};
+			CancelButton.TouchUpInside += (object sender, EventArgs e) =>
+			{
+				//we'll come back this one later
+			};
 
 		}
 
@@ -40,10 +40,11 @@ namespace RaysHotDogs
 		{
 			UIImage img = UIImage.FromFile("Images/" + SelectedHotDog.ImagePath + ".jpg");
 			HotDogImageView.Image = img;
-			//NameLabel.Text = SelectedHotDog.Name;
-			//ShortDescriptionLabel.Text = SelectedHotDog.ShortDescription;
-			//LongDescriptionText.Text = SelectedHotDog.Description;
-			//PriceLabel.Text = "$" + SelectedHotDog.Price.ToString();
+			NameLabel.Text = SelectedHotDog.Name;
+			ShortDescriptionLabel.Text = SelectedHotDog.ShortDescription;
+			LongDescriptionText.Text = SelectedHotDog.Description;
+			PriceLabel.Text = "$" + SelectedHotDog.Price.ToString();
+
 		}
 	}
 }
