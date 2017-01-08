@@ -1,12 +1,10 @@
 ﻿<Properties StartupConfiguration="{0354412C-3915-479E-B18D-64F220936DB2}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RaysHotDogs/DataSources/HotDogDataSource.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RaysHotDogs/Main.cs">
     <Files>
+      <File FileName="RaysHotDogs/HotDogTableViewController.cs" Line="35" Column="24" />
+      <File FileName="RaysHotDogs/Main.cs" Line="14" Column="3" />
       <File FileName="RaysHotDogs/HotDogDetailViewController.cs" Line="35" Column="17" />
-      <File FileName="RaysHotDogs/HotDogDetailViewController.designer.cs" Line="1" Column="1" />
-      <File FileName="RaysHotDogs/HotDogTableViewController.designer.cs" Line="1" Column="1" />
-      <File FileName="RaysHotDogs/HotDogTableViewController.cs" Line="19" Column="70" />
-      <File FileName="RaysHotDogs/Cells/HotDogListCell.cs" Line="13" Column="3" />
-      <File FileName="RaysHotDogs/DataSources/HotDogDataSource.cs" Line="1" Column="1" />
+      <File FileName="RaysHotDogs/DataSources/HotDogDataSource.cs" Line="54" Column="3" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,12 +12,11 @@
           <Node name="RaysHotDogs" expanded="True">
             <Node name="RaysHotDogs" expanded="True">
               <Node name="Cells" expanded="True" />
-              <Node name="DataSources" expanded="True">
-                <Node name="HotDogDataSource.cs" selected="True" />
-              </Node>
+              <Node name="DataSources" expanded="True" />
               <Node name="Images" expanded="True" />
               <Node name="HotDogDetailViewController.cs" expanded="True" />
               <Node name="HotDogTableViewController.cs" expanded="True" />
+              <Node name="Main.cs" selected="True" />
             </Node>
           </Node>
         </State>

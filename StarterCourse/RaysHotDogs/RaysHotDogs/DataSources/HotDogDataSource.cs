@@ -51,5 +51,10 @@ namespace RaysHotDogs
 		{
 			return this.hotDogs.Count;
 		}
+
+		public HotDog GetItem(int index)
+		{
+			return this.hotDogs[index];
+		}
 	}
 }

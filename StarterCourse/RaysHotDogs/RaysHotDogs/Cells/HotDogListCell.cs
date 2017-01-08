@@ -39,6 +39,7 @@ namespace RaysHotDogs
 			ContentView.Add(imageView);
 		}
 
+		// Not an override.  This is our method
 		public void UpdateCell(string caption, string subtitle, UIImage image)
 		{
 			imageView.Image = image;
