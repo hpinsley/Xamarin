@@ -119,6 +119,14 @@
       <DependentUpon>HotDogTableViewController.cs</DependentUpon>
     </Compile>
     <Compile Include="Cells\HotDogListCell.cs" />
+    <Compile Include="MenuController.cs" />
+    <Compile Include="MenuController.designer.cs">
+      <DependentUpon>MenuController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavigationController.cs" />
+    <Compile Include="NavigationController.designer.cs">
+      <DependentUpon>NavigationController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RaysHotDocs.Core2\RaysHotDocs.Core2.csproj">

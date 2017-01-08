@@ -1,10 +1,8 @@
 ﻿<Properties StartupConfiguration="{0354412C-3915-479E-B18D-64F220936DB2}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RaysHotDogs/Main.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="RaysHotDogs/HotDogTableViewController.cs" Line="35" Column="24" />
-      <File FileName="RaysHotDogs/Main.cs" Line="14" Column="3" />
-      <File FileName="RaysHotDogs/HotDogDetailViewController.cs" Line="35" Column="17" />
-      <File FileName="RaysHotDogs/DataSources/HotDogDataSource.cs" Line="54" Column="3" />
+      <File FileName="RaysHotDogs/MenuController.cs" Line="1" Column="1" />
+      <File FileName="RaysHotDogs/NavigationController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,7 +14,7 @@
               <Node name="Images" expanded="True" />
               <Node name="HotDogDetailViewController.cs" expanded="True" />
               <Node name="HotDogTableViewController.cs" expanded="True" />
-              <Node name="Main.cs" selected="True" />
+              <Node name="Main.storyboard" selected="True" />
             </Node>
           </Node>
         </State>
