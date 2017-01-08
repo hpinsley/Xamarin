@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{0354412C-3915-479E-B18D-64F220936DB2}|Default">
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="RaysHotDogs/MenuController.cs" Line="1" Column="1" />
-      <File FileName="RaysHotDogs/NavigationController.cs" Line="1" Column="1" />
+      <File FileName="RaysHotDogs/DataSources/HotDogDataSource.cs" Line="28" Column="1" />
+      <File FileName="RaysHotDogs/HotDogTableViewController.cs" Line="24" Column="39" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,7 +24,10 @@
   <MonoDevelop.Ide.ItemProperties.RaysHotDogs PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E3B7B6A2-8EC7-4932-91A3-E6BE49191636" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/howard.pinsley/dev/xamarin/StarterCourse/RaysHotDogs/RaysHotDogs/HotDogTableViewController.cs" line="28" column="1" />
+      <Breakpoint file="/Users/howard.pinsley/dev/xamarin/StarterCourse/RaysHotDogs/RaysHotDogs/HotDogTableViewController.cs" line="26" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

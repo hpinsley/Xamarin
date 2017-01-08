@@ -19,32 +19,32 @@ namespace RaysHotDogs
 
 		public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath)
 		{
-			//UITableViewCell cell = tableView.DequeueReusableCell(cellIdentifier);
-			//if (cell == null)
-			//{
-			//	cell = new UITableViewCell(UITableViewCellStyle.Default, cellIdentifer);
-			//}
+			UITableViewCell cell = tableView.DequeueReusableCell(cellIdentifier);
+			if (cell == null)
+			{
+				cell = new UITableViewCell(UITableViewCellStyle.Default, cellIdentifier);
+			}
 
-			//var hotDog = this.hotDogs[indexPath.Row];
+			var hotDog = this.hotDogs[indexPath.Row];
 
-			//cell.TextLabel.Text = hotDog.Name;
-			//cell.ImageView.Image = UIImage.FromFile("Images/" + hotDog.ImagePath + ".jpg");
+			cell.TextLabel.Text = hotDog.Name;
+			cell.ImageView.Image = UIImage.FromFile("Images/" + hotDog.ImagePath + ".jpg");
 
-			//return cell;
+			return cell;
 
 
 			//Custom cell			
 			
-			HotDogListCell cell = tableView.DequeueReusableCell (cellIdentifier) as HotDogListCell;
+			//HotDogListCell cell = tableView.DequeueReusableCell (cellIdentifier) as HotDogListCell;
 
-			if (cell == null)
-				cell = new HotDogListCell (cellIdentifier);
+			//if (cell == null)
+			//	cell = new HotDogListCell (cellIdentifier);
 
-			cell.UpdateCell (hotDogs[indexPath.Row].Name
-				, hotDogs[indexPath.Row].Price.ToString()
-				, UIImage.FromFile ("Images/" + hotDogs[indexPath.Row].ImagePath + ".jpg") );
+			//cell.UpdateCell (hotDogs[indexPath.Row].Name
+			//	, hotDogs[indexPath.Row].Price.ToString()
+			//	, UIImage.FromFile ("Images/" + hotDogs[indexPath.Row].ImagePath + ".jpg") );
 
-			return cell;
+			//return cell;
 		}
 
 		public override nint RowsInSection(UITableView tableview, nint section)
